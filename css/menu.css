@@ -1,0 +1,39 @@
+body {
+    overflow-x: hidden;
+}
+
+.thumbnail {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #fefefc;
+}
+
+.thumbnail a:hover {
+    text-decoration: none;
+}
+
+.thumbnail a img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.socialLinks {
+    display: inline;
+}
+
+.thumbnail:hover .foodTitle {
+    color: #e23744;
+}
+
+.orderBtn {
+    padding: 5px; 
+    color: #e23744; 
+    background-color: #FFF;
+    border:2px dotted #e23744; 
+    transition: 0.4s background-color;
+}
+
+.orderBtn:hover {
+    color: #FFF;
+    background-color: #e23744;
+}

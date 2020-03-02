@@ -1,0 +1,8 @@
+body {
+    overflow-x: hidden;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 800px;
+  }
