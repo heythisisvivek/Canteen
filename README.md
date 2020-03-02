@@ -18,7 +18,7 @@ Home Screen
 
 Dashboard
 
-![Screenshot](Pictures/Dashboard.png)
+![Screenshot](Pictures/dashboard.png)
 
 ## Usage
 Preferably, you can download this site by cloning the Git repository:
