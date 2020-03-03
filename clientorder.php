@@ -67,7 +67,7 @@ if(!isset($_SESSION["adminEmail"])) {
                     echo "<script>alert('Status Updated')</script>";
                 }
             }
-            $getFood = mysqli_query($conn, "SELECT * FROM foodorder");
+            $getFood = mysqli_query($conn, "SELECT * FROM foodorder ORDER BY id DESC");
             if(mysqli_num_rows($getFood) > 0) {
                 while($getItem = mysqli_fetch_assoc($getFood)) {
                     $getItemClient = $getItem['email'];

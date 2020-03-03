@@ -173,7 +173,7 @@ if(isset($_SESSION["email"])) {
         <div class='container' style='padding: 20px'>
         <div class='row'>"; ?>
         <?php
-          $selImage = "SELECT * FROM menu ORDER BY id";
+          $selImage = "SELECT * FROM menu ORDER BY id DESC";
           $queryImage = mysqli_query($conn, $selImage);
     
           if(mysqli_num_rows($queryImage) > 0) {
